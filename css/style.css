@@ -1,0 +1,68 @@
+﻿body
+{
+    background-color: paleturquoise;
+}
+
+@font-face {
+    font-family: 'ds-digi';
+    src: url('../fonts/DS-DIGI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#game {
+    width: 200px;
+    height: 200px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background: pink;
+}
+
+.center {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 46px;
+    margin-top: 46px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+ 
+}
+
+p {
+    font-family: 'ds-digi', 'Helvetica', 'Arial', 'sans-serif';
+    text-align: center;
+    font-size: 32px;
+    color: lime;
+    text-transform: uppercase;
+}
+
+#b0 {
+    border-radius: 100% 0 0 0;
+    background: #D7D700;
+}
+
+#b1 {
+    border-radius: 0 100% 0 0;
+    background: green;
+}
+
+
+#b2 {
+    border-radius: 0 0 0 100%;
+    background: #0000AF;
+}
+
+#b3 {
+    border-radius: 0 0 100% 0;
+    background: #CD0000;
+}
+
